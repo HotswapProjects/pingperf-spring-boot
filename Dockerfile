@@ -1,5 +1,4 @@
-FROM anapsix/alpine-java:8_jdk-dcevm
-# FROM openjdk:8-jdk-alpine
+FROM hotswapagent/hotswap-vm
 VOLUME /tmp
 ARG JAR_FILE
 ADD ${JAR_FILE} app.jar
