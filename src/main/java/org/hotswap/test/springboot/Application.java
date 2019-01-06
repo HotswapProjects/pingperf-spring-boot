@@ -18,7 +18,7 @@ public class Application {
 
     @RequestMapping("/simple")
     public String home() {
-        statistics.updateStatistic(0);
+        //statistics.updateStatistic(0);
         return "ok";
     }
 
